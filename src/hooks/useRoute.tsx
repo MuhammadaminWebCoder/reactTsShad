@@ -1,0 +1,81 @@
+import { ReactNode } from "react";
+import { Board, Careers, Contact, Home, Investors, Leadership, MediaKit, Newsroom, PressReleases, Products, Release, Strategy, Support } from "../pages";
+import Search from "../pages/Search";
+import { PATH } from "./usePath";
+interface RouteType {
+    id:number,
+    path:string,
+    element:ReactNode
+}
+export const router:RouteType[] = [
+    {
+        id:1,
+        path:PATH.home,
+        element:<Home/>
+    },
+    {
+        id:2,
+        path:PATH.products,
+        element:<Products/>
+    },
+    {
+        id:3,
+        path:PATH.strategy,
+        element:<Strategy/>
+    },
+    {
+        id:4,
+        path:PATH.careers,
+        element:<Careers/>
+    },
+    {
+        id:5,
+        path:PATH.leadership,
+        element:<Leadership/>
+    },
+    {
+        id:6,
+        path:PATH.board,
+        element:<Board/>
+    },
+    {
+        id:7,
+        path:PATH.investors,
+        element:<Investors/>
+    },
+    {
+        id:8,
+        path:PATH.newsroom,
+        element:<Newsroom/>
+    },
+    {
+        id:9,
+        path:PATH.pressReleases,
+        element:<PressReleases/>
+    },
+    {
+        id:10,
+        path:PATH.mediaKit,
+        element:<MediaKit/>
+    },
+    {
+        id:11,
+        path:PATH.release,
+        element:<Release/>
+    },
+    {
+        id:12,
+        path:PATH.support,
+        element:<Support/>
+    },
+    {
+        id:13,
+        path:PATH.search,
+        element:<Search/>
+    },
+    {
+        id:14,
+        path:PATH.contact,
+        element:<Contact/>
+    }
+]

@@ -1,0 +1,16 @@
+export const PATH = {
+    home:'/',
+    products:'/products',
+    strategy:'/strategy',
+    contact:'/contact-us',
+    careers:'/Careers',
+    leadership:'/Leadership',
+    board:'/Board',
+    investors:'/Investors',
+    newsroom:'/Newsroom',
+    pressReleases:'/PressReleases',
+    mediaKit:'/Media',
+    release:'/Release',
+    support:'/Support',
+    search:'/search',
+}
