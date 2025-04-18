@@ -16,6 +16,7 @@ const Header = () => {
   }
 const [openMenu,setOpenMenu] = useState<boolean>(false)
 const [search, setSearch] = useState<string>(""); 
+console.log(openMenu);
 
 const list = [
     { title: "Our Products", path:PATH.products },

@@ -1,5 +1,5 @@
 import { X } from "lucide-react";
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Helper } from "../assets/icons";
 
 const HelperMod = () => {
